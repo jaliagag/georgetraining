@@ -1,0 +1,16 @@
+# $ k run test --image=nginx --dry-run=client -o yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: test
+  name: test
+spec:
+  containers:
+  - image: nginx
+    name: test
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
