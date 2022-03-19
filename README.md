@@ -11,6 +11,9 @@
 
 - [Devsecops](https://github.com/9spokes/devsecops-challenge)
 
+## recursos
+
+- [Play with kubernetes](https://labs.play-with-k8s.com/)
 
 
 
