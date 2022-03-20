@@ -12,6 +12,7 @@ git status
 git add <files>
 git commit -m 'mensaje útil'
 git push
+git push --set-upstream origin <nombre rama nueva>
 git checkout -b <nombre rama>
 git checkout <rama>
 git branch
